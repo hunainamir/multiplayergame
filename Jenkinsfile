@@ -23,5 +23,6 @@ node ('app-agent'){
          sh "docker compose down"
          sh "docker compose up -d"	
       }
+}
     
 
