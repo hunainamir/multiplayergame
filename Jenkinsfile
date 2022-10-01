@@ -24,9 +24,4 @@ node ('app-agent'){
          sh "docker compose up -d"	
       }
     
-    stage('DAST')
-        {
-        build 'SECURITY-DAST-OWASP_ZAP'
-        }
- 
-}
+
